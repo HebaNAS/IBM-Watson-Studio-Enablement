@@ -11,6 +11,8 @@ This repository will contain several demos covering different functionality avai
 Sign up for IBM Cloud here: [https://ibm.biz/BdZz9g](https://ibm.biz/BdZz9g)
 
 > <span style="color:red">**Note:** </span> Whenever prompted to choose a country/location/region, choose **United States/US-South**.
+<br></br>
+
 
 2. Create an **Object Storage** instance by choosing it from the catalog.  
 ![1](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/AccountSetup/1.jpg?raw=true)  
