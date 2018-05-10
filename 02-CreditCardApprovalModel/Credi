@@ -62,7 +62,7 @@
             }
         }, 
         {
-            "source": "![insert-data](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/CreditCardApprovalModel/imgs/insert-dataframe.jpg?raw=true)", 
+            "source": "![insert-data](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/02-CreditCardApprovalModel/imgs/insert-dataframe.jpg?raw=true)", 
             "cell_type": "markdown", 
             "metadata": {}
         }, 
@@ -1186,7 +1186,7 @@
             "metadata": {}
         }, 
         {
-            "source": "![postman](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/CreditCardApprovalModel/imgs/API-Call.jpg?raw=true)", 
+            "source": "![postman](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/02-CreditCardApprovalModel/imgs/API-Call.jpg?raw=true)", 
             "cell_type": "markdown", 
             "metadata": {}
         }, 
