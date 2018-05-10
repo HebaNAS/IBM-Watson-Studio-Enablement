@@ -605,22 +605,6 @@
             "source": "# Find outliers in first column (continuous values)\nprint(find_outliers(X[13]))"
         }, 
         {
-            "execution_count": 54, 
-            "cell_type": "code", 
-            "metadata": {}, 
-            "outputs": [
-                {
-                    "execution_count": 54, 
-                    "metadata": {}, 
-                    "data": {
-                        "text/plain": "True"
-                    }, 
-                    "output_type": "execute_result"
-                }
-            ], 
-            "source": "# Check for null values\nX.isnull().values.any()"
-        }, 
-        {
             "execution_count": 53, 
             "cell_type": "code", 
             "metadata": {
@@ -639,6 +623,22 @@
                 }
             ], 
             "source": "# Find outliers in first column (continuous values)\nprint(find_outliers(X[14]))"
+        }, 
+        {
+            "execution_count": 54, 
+            "cell_type": "code", 
+            "metadata": {}, 
+            "outputs": [
+                {
+                    "execution_count": 54, 
+                    "metadata": {}, 
+                    "data": {
+                        "text/plain": "True"
+                    }, 
+                    "output_type": "execute_result"
+                }
+            ], 
+            "source": "# Check for null values\nX.isnull().values.any()"
         }, 
         {
             "execution_count": 56, 
