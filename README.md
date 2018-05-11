@@ -6,6 +6,16 @@ Github: HebaNAS
 
 This repository will contain several demos covering different functionality available on IBM Watson Studio. Each demo will be enclosed in a separate folder along with its resources such as datasets and tutorial written as `README.md`.
 
+<hr></hr>
+
+## In these tutorials, we will learn how to:
+1. Create a model and deploy it from a notebook in Watson Studio ([02-CreditCardApprovalModel](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/tree/master/02-CreditCardApprovalModel) and [03-LoanApprovalModel](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/tree/master/03-LoanApprovalModel)).
+2. Create a model using Watson Studio's Automatic Modeler ([04-CreditCardApprovalWMLModeler](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/tree/master/04-CreditCardApprovalWMLModeler)).
+3. Create a model using IBM SPSS Modeler ().
+4. Create an Interactive Dashboard and share it ([06-CustomerDemographicsDashboard](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/tree/master/06-CustomerDemographicsDashboard)).
+5. Create an Image Classifier using Watson Visual Recognition ([07-SignatureFraudDetectionVisualRecognition](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/tree/master/07-SignatureFraudDetectionVisualRecognition)).
+6. Create a Deep Learning Model using Watson Studio's Neural Network Modeler, adjusting model's hyperparameters and run experiments ().
+
 ## Important Notes to follow along with this tutorial:
 1. You'll need an IBM **Cloud** Account
 Sign up for IBM Cloud here: [https://ibm.biz/BdZz9g](https://ibm.biz/BdZz9g)
