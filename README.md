@@ -18,7 +18,7 @@ This repository will contain several demos covering different functionality avai
 
 ## Important Notes to follow along with this tutorial:
 1. You'll need an IBM **Cloud** Account
-Sign up for IBM Cloud here: [https://ibm.biz/BdZz9g](https://ibm.biz/BdZz9g)
+Sign up for IBM Cloud here: [https://ibm.biz/WatsonStudioTutorials](https://ibm.biz/WatsonStudioTutorials)
 
 > <span style="color:red">**Note:** </span> Whenever prompted to choose a country/location/region, choose **United States/US-South**.
 <br></br>
