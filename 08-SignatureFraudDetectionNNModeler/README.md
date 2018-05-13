@@ -192,3 +192,27 @@ All files are archived into `CNN.zip` for easiness. You can download that to you
 45. Once you're satisfied with a model, you can save it and access it from Models panel in Watson Studio's main dashboard.  
 ![46](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/08-SignatureFraudDetectionNNModeler/imgs/46.jpg?raw=true)
 <br></br>
+
+46. Saving the model. You only need to provide a name for your model, then click **Save**.  
+![49](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/08-SignatureFraudDetectionNNModeler/imgs/49.jpg?raw=true)
+<br></br>
+
+47. You'll be notified when the process finishes, and you can click to view model details or access it from the Dashboard in the Models panel.  
+![50](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/08-SignatureFraudDetectionNNModeler/imgs/50.jpg?raw=true)
+<br></br>
+
+48. Let's deploy our model to use it and test it.  
+![51](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/08-SignatureFraudDetectionNNModeler/imgs/51.jpg?raw=true)
+<br></br>
+
+49. We'll deploy it as a **Web Service**, you can choose Batch Prediction if you have several files containing data needing prediction at once.  
+![52](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/08-SignatureFraudDetectionNNModeler/imgs/52.jpg?raw=true)
+<br></br>
+
+50. Once deployment is successful, we'll click on the deployment.  
+![53](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/08-SignatureFraudDetectionNNModeler/imgs/53.jpg?raw=true)
+<br></br>
+
+51. Click on the **Test** tab, and enter the raw input as provided in this gist: [https://gist.github.com/HebaNAS/47e21e45ea803365fc5555abbd58a07d](https://gist.github.com/HebaNAS/47e21e45ea803365fc5555abbd58a07d). Click **Predict**. You'll get a response back from the model.   
+![54](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/08-SignatureFraudDetectionNNModeler/imgs/54.jpg?raw=true)
+<br></br>
