@@ -1,9 +1,22 @@
 # Build and compare models performances using IBM SPSS Modeler
 
+In this how-to, you will go through the process of preparing data and building a predictive model using IBM SPSS Modeler.
+
+The business use case for this how-to is to assess the risk of a loan application, hence, approving the application and giving the loan to a customer or rejecting the application.  
+The dataset used in this how-to is free, open-source and available here: [http://bml.io/W2SpyF](http://bml.io/W2SpyF).  
+
+The dataset contains details about customers applying for loans. Examples of the details available are: checking status, duration, credit history, purpose, credit amount, savings status, employment, etc.
+
+IBM SPSS is availble on [IBM Watson Studio](https://dataplatform.ibm.com/home?context=analytics) as one of many options to build predictive models.
+
 If you want more flexibility in preparing your data and building your models than what Watson Studio's Automatic Modeler offers, but still want the ease of use of a GUI interface and less code writing and complexity, you can use IBM SPSS Modeler for exactly that.
 <br></br>
 
-1. Create a **New Flow** from Modeler Flows in the main dashboard of Watson Studio.  
+>> To upload the dataset to IBM Watson Studio and start working with it, refer to the screenshot below. **Note:** The name of the dataset in the screenshot is different.   
+![a](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/02-CreditCardApprovalModel/imgs/2.jpg?raw=true)
+<br></br>
+
+1. Create a **New Flow** from Modeler Flows in the main dashboard of IBM Watson Studio.  
 ![1](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/1.jpg?raw=true)
 <br></br>
 
@@ -11,7 +24,7 @@ If you want more flexibility in preparing your data and building your models tha
 ![2](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/2.jpg?raw=true)
 <br></br>
 
-3. Let's start by importaning our dataset. Click on **Import** on the left-side panel.  
+3. Let's start by importing our dataset. Click on **Import** on the left-side panel.  
 ![3](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/3.jpg?raw=true)
 <br></br>
 
@@ -28,8 +41,7 @@ If you want more flexibility in preparing your data and building your models tha
 <br></br>
 
 7. A list of all the data assets you have in this project will be listed. Let's select `customers_credit_status.csv`, available [here](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/03-LoanApprovalModel/customers_credit_status.csv).  
-If you have been following along the tutorials in their numbered sequence, you should have the dataset imported already and available.  
-Note: Names of datasets in the screenshots may be different from what you have.  
+**Note:** Names of datasets in the screenshots may be different from what you have.  
 After selecting the dataset, click **Ok**.  
 ![7](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/7.jpg?raw=true)
 <br></br>
@@ -110,7 +122,7 @@ After selecting the dataset, click **Ok**.
 ![26](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/26.jpg?raw=true)
 <br></br>
 
-27. Let's add an **Analysis** node to peak into the model results node.  
+27. Let's add an **Analysis** node to peek into the model results node.  
 ![27](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/27.jpg?raw=true)
 <br></br>
 
@@ -140,7 +152,7 @@ After selecting the dataset, click **Ok**.
 ![39](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/39.jpg?raw=true)
 <br></br>
 
-33. Checking another model's performance as we did in the previous step.  
+33. Checking another model's performance (Random Forest) as we did in the previous step.  
 ![32](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/32.jpg?raw=true)
 <br></br>
 ![33](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/33.jpg?raw=true)
@@ -161,6 +173,9 @@ After selecting the dataset, click **Ok**.
 ![42](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/42.jpg?raw=true)
 <br></br>
 
-37. You can access it as we have seen in other demos through the Models panel in the main dashboard.  
+37. You can access it in the Models panel in the main dashboard.  
 ![43](https://github.com/HebaNAS/IBM-Watson-Studio-Enablement/blob/master/05-LoanApprovalSPSSModeler/imgs/43.jpg?raw=true)
 <br></br>
+
+
+You can easily iterate through these steps and do some tweaks in the configuration options of each step/node to achieve better accuracy.
